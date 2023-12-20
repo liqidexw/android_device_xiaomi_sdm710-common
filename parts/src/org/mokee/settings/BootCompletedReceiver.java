@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.mokeeos.settings;
+package org.mokee.settings;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

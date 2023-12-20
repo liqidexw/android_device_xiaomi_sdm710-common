@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.mokeeos.settings.dirac;
+package org.mokee.settings.dirac;
 
 import android.content.Context;
 import android.util.Log;

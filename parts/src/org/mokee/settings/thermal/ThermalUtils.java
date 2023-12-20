@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.mokeeos.settings.thermal;
+package org.mokee.settings.thermal;
 
 import android.content.Context;
 import android.content.Intent;

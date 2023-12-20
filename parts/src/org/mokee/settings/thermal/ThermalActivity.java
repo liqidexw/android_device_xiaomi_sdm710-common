@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 The mokeeOS Project
+ * Copyright (C) 2020 The mokeeOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.mokeeos.settings.dirac;
+package org.mokee.settings.thermal;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-public class DiracActivity extends PreferenceActivity {
+public class ThermalActivity extends PreferenceActivity {
 
-    private static final String TAG_DIRAC = "dirac";
+    private static final String TAG_THERMAL = "thermal";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         getFragmentManager().beginTransaction().replace(android.R.id.content,
-                new DiracSettingsFragment(), TAG_DIRAC).commit();
+                new ThermalSettingsFragment(), TAG_THERMAL).commit();
     }
 }

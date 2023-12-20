@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.mokeeos.settings.dirac;
+package org.mokee.settings.dirac;
 
 import android.app.ActionBar;
 import android.os.Bundle;
