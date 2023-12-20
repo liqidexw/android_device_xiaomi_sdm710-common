@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2019 The mokeeOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_sdm710"
+#define LOG_TAG "mokee.biometrics.fingerprint.inscreen@1.0-service.xiaomi_sdm710"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
@@ -24,8 +24,8 @@
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 
-using vendor::lineage::biometrics::fingerprint::inscreen::V1_0::IFingerprintInscreen;
-using vendor::lineage::biometrics::fingerprint::inscreen::V1_0::implementation::FingerprintInscreen;
+using vendor::mokee::biometrics::fingerprint::inscreen::V1_0::IFingerprintInscreen;
+using vendor::mokee::biometrics::fingerprint::inscreen::V1_0::implementation::FingerprintInscreen;
 
 using android::OK;
 using android::status_t;

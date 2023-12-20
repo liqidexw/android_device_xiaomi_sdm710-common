@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2019 The mokeeOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-#ifndef VENDOR_LINEAGE_LIVEDISPLAY_V2_1_SUNLIGHTENHANCEMENT_H
-#define VENDOR_LINEAGE_LIVEDISPLAY_V2_1_SUNLIGHTENHANCEMENT_H
+#ifndef VENDOR_MOKEE_LIVEDISPLAY_V2_1_SUNLIGHTENHANCEMENT_H
+#define VENDOR_MOKEE_LIVEDISPLAY_V2_1_SUNLIGHTENHANCEMENT_H
 
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
-#include <vendor/lineage/livedisplay/2.1/ISunlightEnhancement.h>
+#include <vendor/mokee/livedisplay/2.1/ISunlightEnhancement.h>
 
 namespace vendor {
-namespace lineage {
+namespace mokee {
 namespace livedisplay {
 namespace V2_1 {
 namespace implementation {
@@ -35,7 +35,7 @@ class SunlightEnhancement : public ISunlightEnhancement {
   public:
     bool isSupported();
 
-    // Methods from ::vendor::lineage::livedisplay::V2_1::ISunlightEnhancement follow.
+    // Methods from ::vendor::mokee::livedisplay::V2_1::ISunlightEnhancement follow.
     Return<bool> isEnabled() override;
     Return<bool> setEnabled(bool enabled) override;
 };
@@ -43,7 +43,7 @@ class SunlightEnhancement : public ISunlightEnhancement {
 }  // namespace implementation
 }  // namespace V2_1
 }  // namespace livedisplay
-}  // namespace lineage
+}  // namespace mokee
 }  // namespace vendor
 
-#endif  // VENDOR_LINEAGE_LIVEDISPLAY_V2_1_SUNLIGHTENHANCEMENT_H
+#endif  // VENDOR_MOKEE_LIVEDISPLAY_V2_1_SUNLIGHTENHANCEMENT_H
