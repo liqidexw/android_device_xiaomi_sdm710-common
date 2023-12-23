@@ -40,7 +40,7 @@ import androidx.preference.PreferenceFragment;
 
 import com.android.settingslib.applications.ApplicationsState;
 
-import org.mokeeos.settings.R;
+import org.mokee.settings.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
