@@ -32,7 +32,7 @@ import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 
-import org.mokeeos.settings.R;
+import org.mokee.settings.R;
 
 public class DiracSettingsFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener, CompoundButton.OnCheckedChangeListener {
