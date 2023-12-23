@@ -22,9 +22,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import org.mokeeos.settings.dirac.DiracUtils;
-import org.mokeeos.settings.doze.DozeUtils;
-import org.mokeeos.settings.thermal.ThermalUtils;
+import org.mokee.settings.dirac.DiracUtils;
+import org.mokee.settings.doze.DozeUtils;
+import org.mokee.settings.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
